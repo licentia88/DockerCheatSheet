@@ -10,7 +10,7 @@ Docker Cheat Sheet
 
   docker container run/exec --it pathToImage sh
 
-  docker container run --it -v existingVolumeName/foldername imageName/pathToImage  sh     -> connects volume to a folder inside this container.
+  docker container run --it -v existingVolumeName:/foldername imageName/pathToImage  sh     -> connects volume to a folder inside this container.
 ```
 
 ## Volumes
