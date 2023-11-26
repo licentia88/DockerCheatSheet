@@ -6,7 +6,7 @@ Docker Cheat Sheet
  ```docker
   docker container run --name sampleContainerName -p 80:80 pathToImage
 
-   docker container run --name sampleContainerName --it -p 80:80 pathToImage sh
+  docker container run --name sampleContainerName --it -p 80:80 pathToImage sh
 
   docker container run/exec --it pathToImage sh
 
@@ -23,6 +23,9 @@ Docker Cheat Sheet
  ## Shell Commands
 
  ls     -> show
- ps     -> show
+ ps     -> shows containers
  echo   -> print
  touch  -> create
+ exit
+ rm     -> remove
+ cat    -> 
